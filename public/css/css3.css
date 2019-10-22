@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.website{
+    width: 1280px;
+}
+.header{
+    width: 100%;
+    height: 800px;
+    background: url("../image/Layer_1.png") no-repeat;
+}
+.header-top{
+    height: 520px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header-bottom{
+    position: relative;
+    /*background: blue;*/
+    height: 280px;
+    width: 100%;
+}
+.header-top > .text{
+    color: #ffffff;
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.header-top > .text > .text-top{
+    font-family: "OpenSans";
+}
+.header-top > .text > .text-bottom{
+    font-family: "OpenSans_Bold";
+}
+.logo{
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    background: #000000;
+    margin: 70px 0 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-bottom{
+    display: flex;
+    justify-content: center;
+}
+.header-bottom > .menu{
+    position: relative;
+    width: 335px;
+    height: 335px;
+    background: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 0 2px black;
+    transform: translateY(60px);
+}
+.header-bottom > .menu > .text-input{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-bottom > .menu > .text-input > input{
+    width: 270px;
+    height: 35px;
+    border-radius: 5px;
+    border: #e5e5e5 solid 1px;
+    font-family: OpenSans;
+    color: #d2cece;
+    padding-left: 15px;
+}
+.header-bottom > .menu > .images > .images-col1{
+    width: 100%;
+    height: 45px;
+    display: flex;
+}
+.header-bottom > .menu > .images > .images-col2{
+    width: 100%;
+    height: 45px;
+    display: flex;
+}
+.header-bottom > .menu > .images > .images-col2 > img{
+    width: 20%;
+}
+.header-bottom > .menu > .images > .images-col1 > img{
+    width: 20%;
+}
+.header-bottom > .menu > .text{
+
+    width: 100%;
+    height: 65px;
+    margin-top: 25px;
+    font-family: OpenSans;
+    text-align: center;
+    font-size: 17px;
+    color: #938e8e;
+}
+
+.header-bottom > .menu > .button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.header-bottom > .menu > .button > button{
+    background: #227dd3;
+    width: 190px;
+    height: 45px;
+    border-radius: 2px;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.files{
+    flex-wrap: wrap;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.files > .documents{
+    margin: 50px 28px 0 28px;
+    height: 120px;
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+}
+.files > .documents > .image{
+    width: 95px;
+}
+.files > .documents > .text{
+    width: 265px;
+    /*margin-left: 25px;*/
+}
+.files > .documents > .text > .text-top{
+    /*text-align: center;*/
+    font-size: 25px;
+    color: #000000;
+    font-family: OpensSans_Semibold;
+}
+.files > .documents > .text > .text-bottom{
+    color: #b9b8b8;
+    font-family: OpenSans;
+}
+.files > .separator{
+    height: 120px;
+    width: 100%;
+}
+.footer{
+    height: 680px;
+}
+.footer > .maps{
+    height: 640px;
+}
+.footer > .maps > img{
+    width: 100%;
+    height: 100%;
+}
+.footer > .maps > .message{
+    top: -450px;
+    left: 400px;
+    position: relative;
+    background: rgba(253, 253, 253, 0.7);
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer > .author{
+    height: 40px;
+    background: #43a06d;
+}
+.footer > .maps > .message > .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 45px;
+}
+.footer > .maps > .message > .email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 45px;
+}
+.footer > .maps > .message > .text-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 80px;
+}
+.footer > .maps > .message > .check-mark{
+    margin-top: 30px;
+    width: 60px;
+    height: 60px;
+    background: url("image/mark.png");
+    border-radius: 50%;
+}
+.footer > .maps > .message > .name > input {
+    color: #a5a7ae;
+    border: #a5a7ae solid 1px;
+}
+.footer > .maps > .message > .text-message > input{
+    height: 80px;
+    color: #a5a7ae;
+    border: #a5a7ae solid 1px;
+}
+.footer > .maps > .message > .email > input{
+    color: #a5a7ae;
+    border: #a5a7ae solid 1px;
+    background: none;
+}
+
+
+
+@font-face{
+    font-family: "OpensSans_Semibold";
+    src: url("../ttf/OpensSans_Semibold.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: "OpenSans";
+    src: url("../ttf/OpenSans.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: "OpenSans_Bold";
+    src: url("ttf/OpenSans_Bold.ttf");
+    font-style: normal;
+    font-weight: normal;
+}

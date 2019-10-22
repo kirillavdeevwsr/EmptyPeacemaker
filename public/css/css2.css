@@ -1,0 +1,14 @@
+.website{
+    background: #000000;
+    width: 1280px;
+    height: 3220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cap{
+    background: url("Layer_1.png") no-repeat;
+    width: 1280px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
